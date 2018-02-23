@@ -87,7 +87,7 @@ namespace MongoDB {}
              * @throws ConnectionException if connection to the server fails for other then authentication reasons
              * @throws RuntimeException on other errors (invalid command, command arguments, ...)
              */
-            final public function executeQuery($namespace, Query $query, [ReadPreference $readPreference = null])
+            final public function executeQuery($namespace, Query $query, [ReadPreference $readPreference])
             {
             }
 
